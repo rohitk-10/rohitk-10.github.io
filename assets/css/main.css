@@ -3572,7 +3572,7 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
+	/* #banner {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3595,6 +3595,35 @@ input, select, textarea {
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		width: 100vh;
+		min-width: 100em;
+		z-index: 0;
+	} */
+	#banner {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		cursor: default;
+		height: 100vh;
+		min-height: 32em;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		background-image: url("../../images/wsrt.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 98.9vw;
+		min-width: 1em;
 		z-index: 0;
 	}
 
@@ -3645,10 +3674,12 @@ input, select, textarea {
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			font-weight: 700;
 		}
 
 			#banner p a {
 				color: inherit;
+				font-weight: 500;
 			}
 
 		#banner .more {
@@ -3690,11 +3721,11 @@ input, select, textarea {
 				bottom: 4em;
 				content: '';
 				display: block;
-				height: 1.5em;
+				height: 2em;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
 				position: absolute;
-				width: 1.5em;
+				width: 2em;
 			}
 
 		#banner:after {
