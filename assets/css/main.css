@@ -3592,6 +3592,10 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		background-image: url("../../images/wsrt.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		z-index: 0;
 	}
 
 		#banner h2 {
