@@ -3622,7 +3622,7 @@ input, select, textarea {
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		width: 98.9vw;
+		width: 98.9vw; /* Had to change to this to get it to work!! */
 		min-width: 1em;
 		z-index: 0;
 	}
