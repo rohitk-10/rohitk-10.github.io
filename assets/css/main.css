@@ -3591,6 +3591,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		background-image: url("../../images/wsrt.jpg");
 	}
 
 		#banner h2 {
