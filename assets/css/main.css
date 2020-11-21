@@ -2817,7 +2817,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			/* background-color: #21b2a6; */
+			background-image: url("../../images/rohitk_2.jpg");
 			color: #c8ece9;
 		}
 
