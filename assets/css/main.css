@@ -2116,7 +2116,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 60%;
 		}
 
 			.image.left img, .image.right img {
@@ -3939,11 +3939,10 @@ input, select, textarea {
 	#main > headerw {
 		padding: 12em 0 10em 0 ;
 		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/* background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
 		/* background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
-		/* background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */ */
+		/* background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
 		/* background-image: url("../../images/mountains.jpg"); */
-		background: white;
 		background-color: white;
 		background-attachment: fixed;
 		background-position: center center;
@@ -3953,8 +3952,10 @@ input, select, textarea {
 	}
 
 		#main > headerw h2 {
+			background-color: #fff;
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
+			color: #1d242a;
 		}
 
 		#main > headerw p {
